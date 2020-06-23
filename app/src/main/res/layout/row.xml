@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <ImageButton
+        android:id="@+id/animalimage"
+        android:layout_width="166dp"
+        android:layout_height="73dp"
+        android:contentDescription="animal"
+        app:srcCompat="@drawable/fox" />
+
+    <TextView
+        android:id='@+id/animalName'
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAni"
+        android:layout_width="95dp"
+        android:layout_height="78dp"
+        android:layout_weight="2"
+        android:contentDescription="sticker"
+        app:srcCompat="@drawable/notfound" />
+
+</LinearLayout>
